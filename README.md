@@ -4,9 +4,8 @@
 
 ### Team Members
 - Joe Norton - Created HTML structure, wrote content, deployed to server
-- [Team Member 2] - [Their contribution]
-- [Team Member 3] - [Their contribution]  
-- [Team Member 4] - [Their contribution]
+- Nathan Czach - Presentation
+- Tom Williams - Presentation
 
 ### Required Tags (Team 1)
 ✅ `<header>` - Organization name and logo  
