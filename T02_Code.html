@@ -1,33 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTML Form</title>
-</head>
-<body>
+<section id="volunteer-registration">
+            <h2>Join Our Mission</h2>
+            <p>Ready to help? Fill out the form below to volunteer for our upcoming events!</p>
 
-<form>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <p>
+                        <label for="full-name">Full Name:</label><br>
+                        <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="user-email">Email Address:</label><br>
+                        <input type="email" id="user-email" name="user-email" placeholder="email@example.com" required>
+                    </p>
+                    
+                    <p>
+                        <label for="user-phone">Phone Number:</label><br>
+                        <input type="tel" id="user-phone" name="user-phone" placeholder="555-555-5555">
+                    </p>
+                </fieldset>
 
-    <fieldset>
-        <legend>User Information</legend>
+                <fieldset>
+                    <legend>Event Preferences</legend>
+                    
+                    <p>
+                        <label for="event-type">Which event are you interested in?</label><br>
+                        <select id="event-type" name="event-type">
+                            <option value="toy-drive">Local Toy Drive</option>
+                            <option value="shelter-visit">Shelter Delivery Day</option>
+                            <option value="fundraiser">Community Fundraiser</option>
+                            <option value="toy-bank">Toy Bank Staffing</option>
+                        </select>
+                    </p>
 
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br><br>
+                    <p>
+                        <label for="special-requests">Special Requests or Comments:</label><br>
+                        <textarea id="special-requests" name="special-requests" rows="4" cols="50" placeholder="Tell us about your experience or any special needs..."></textarea>
+                    </p>
+                </fieldset>
 
-        <label for="comments">Comments:</label><br>
-        <textarea id="comments" name="comments"></textarea><br><br>
-
-        <label for="choice">Choose one:</label><br>
-        <select id="choice" name="choice">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
-        </select><br><br>
-
-        <button type="submit">Submit</button>
-
-    </fieldset>
-
-</form>
-
-</body>
-</html>
+                <p>
+                    <button type="submit">Submit Registration</button>
+                </p>
+            </form>
+        </section>
